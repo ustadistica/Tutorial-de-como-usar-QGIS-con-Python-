@@ -1,1 +1,16 @@
+import pandas as pd
+import geopandas as gpd
+import folium
+import geopy
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
+import time
+import numpy as np
+import matplotlib.pyplot as plt
 
+pandas>=2.2.2
+matplotlib>=3.10.0
+geopandas>= 1.1.1
+folium>= 0.20.0
+numpy>= 2.0.2
+geopy>= 2.4.1
